@@ -27,7 +27,7 @@ double integralaTrapez(double a, double b, unsigned int n, double(*pf)(double))
 double f(double x)
 {
 
-  return sin(exp(2*x)+3);
+    return sin(exp(2*x)+3);
 
     //return exp(-(x*x));
 

@@ -32,16 +32,16 @@ int main(void)
 	switch(option)
 	{
 		case 1:
-			v1=integralaTrapez(i1,i2,precizie,pf);
+			v1=meniu[1].f(i1,i2,precizie,pf);
 	        printf("Valoarea functiei cu metoda Trapezului este %lf \n",v1);
 		break;
 		case 2:
-			v1=integralaDreptunghi(i1,i2,precizie,pf);
+			v1=meniu[1].f(i1,i2,precizie,pf);
 	        printf("Valoarea functiei cu metoda Trapezului este %lf \n",v1);
 		break;
 		case 3:
-			v1=integralaSimpson(i1,i2,precizie,pf);
-	        printf("Valoarea  functiei cu metoda Simpson este %lf \n",v1);
+			v1=meniu[1].f(i1,i2,precizie,pf);
+	        printf("Valoarea functiei cu metoda Simpson este %lf \n",v1);
 		break;
 		default:
 			break;
